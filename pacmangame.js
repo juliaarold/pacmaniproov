@@ -92,12 +92,12 @@ PacmanGame.prototype = {
 
     preload: function () {
 
-        this.load.image('dot', 'assets/dot.png');
-        this.load.image("pill", "assets/pill16.png");
-        this.load.image('tiles', 'assets/pacman-tiles.png');
-        this.load.spritesheet('pacman', 'assets/pacman.png', 32, 32);
-        this.load.spritesheet("ghosts", "assets/ghosts32.png", 32, 32);
-        this.load.tilemap('map', 'assets/pacman-map.json', null, Phaser.Tilemap.TILED_JSON);
+        this.load.image('dot', 'dot.png');
+        this.load.image("pill", "pill16.png");
+        this.load.image('tiles', 'pacman-tiles.png');
+        this.load.spritesheet('pacman', 'pacman.png', 32, 32);
+        this.load.spritesheet("ghosts", "ghosts32.png", 32, 32);
+        this.load.tilemap('map', 'pacman-map.json', null, Phaser.Tilemap.TILED_JSON);
 
         //  graafika Namco (C)opyrighted
     },
